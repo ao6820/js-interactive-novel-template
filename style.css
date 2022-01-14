@@ -1,0 +1,211 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+.quote {
+  text-align: center;
+  position: relative;
+  padding-top: 150px;
+
+  font-family:  lato;
+  font-size: 5vw;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 0.15em #1da9cc;
+  user-select: none;
+
+  filter: blur(0.007em);
+
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  animation: shake 2.5s linear forwards;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  position: fixed; 
+  bottom:10%;
+  width:100%; 
+}
+
+.button span span {
+  border: solid 1px #fff;
+  box-shadow: 0 0 0.15em #1da9cc;
+  filter: blur(0.007em);
+
+  margin: 10px;
+  padding: 20px 60px;
+  border-radius: 20px;
+  width: 30%;
+
+  display: inline-block;
+  text-align: center;
+  position: relative;
+
+  font-family:  lato;
+  font-size: 3vw;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 0.15em #1da9cc;
+
+  user-select: none;
+}
+
+#buttonSound {
+  font-size: 1vw;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 0.15em #1da9cc;
+
+  font-family:  lato;
+  font-weight: 500;
+
+  display: block;
+  text-align: right;
+  position: fixed; 
+  bottom: 3%;
+  right: 5%;
+  padding: 10px;
+}
+
+body {
+	background: linear-gradient(-45deg, #38241a, #49051c, #041a22, #0a4b3c);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+span {
+  display: inline;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes shake {
+  5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+      filter: blur(0.018em);
+      transform: translateY(0.018em) rotate(0deg);
+  }
+
+  10%, 30%, 40%, 50%, 70%, 80%, 90% {
+      filter: blur(0.01em);
+      transform: translateY(-0.018em) rotate(0deg);
+  }
+
+  20%, 60% {
+      filter: blur(0.03em);
+      transform: translate(-0.018em, 0.018em) rotate(0deg);
+  }
+
+  45%, 85% {
+      filter: blur(0.03em);
+      transform: translate(0.018em, -0.018em) rotate(0deg);
+  }
+
+  100% {
+      filter: blur(0.007em);
+      transform: translate(0) rotate(-0.5deg);
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
