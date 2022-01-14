@@ -5,7 +5,7 @@ const button1Div = document.getElementById('button1');
 const button2Div = document.getElementById('button2');
 const storyboard = document.getElementById('story');
 
-let music = new Audio('https://github.com/dzemochlon/website/blob/gh-pages/moj_maz_ma_zimne_rece.mp3?raw=true');
+let music = new Audio('./Vopna.mp3');
 
 // The whole story is in the following array.
   let scenes = [
@@ -51,7 +51,7 @@ buttonSound.addEventListener("click", buttonSoundClicked);
 
 function button1Clicked() {
   currentScene=scenes[currentScene][2];
-  goToScene(currentScene);
+  goToScene(currentScene); 
 }
 
 function button2Clicked() {
@@ -65,6 +65,7 @@ function buttonSoundClicked() {
   if (musicActive === false) {
     music.play();
     musicActive = true;
+    console.log(musicActive);
   }
   else {
     music.pause();
