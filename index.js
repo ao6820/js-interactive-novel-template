@@ -1,12 +1,12 @@
-const button1Div = document.querySelector("#button1");
-const button2Div = document.querySelector("#button2");
 const storyboard = document.querySelector("#story");
-
 const button = document.querySelector("#button1");
 const button2 = document.querySelector("#button2");
 const buttonSound = document.querySelector("#buttonSound");
 
 let music = new Audio('./Vopna.mp3');
+let musicActive = false;
+
+let currentScene = 0;
 
 // The whole story is in the following array.
   let scenes = [
@@ -32,16 +32,15 @@ let music = new Audio('./Vopna.mp3');
 ['text','first button',number the first button links to,'second button',number the second button links to],       */
 ];
 
-let currentScene = 0;
-
 function goToScene(sceneId) {
   storyboard.innerHTML = '<span>' + scenes[sceneId][0].replace(' ', ' </span><span>') + '</span>';
-  button1Div.innerHTML = '<span>' + scenes[sceneId][1] + '</span>';
-  button2Div.innerHTML = '<span>' + scenes[sceneId][3] + '</span>';
+  button.innerHTML = '<span>' + scenes[sceneId][1] + '</span>';
+  button2.innerHTML = '<span>' + scenes[sceneId][3] + '</span>';
 }
 
 goToScene(currentScene);
 
+// Clicking buttons
 button.addEventListener("click", button1Clicked);
 button2.addEventListener("click", button2Clicked);
 buttonSound.addEventListener("click", buttonSoundClicked);
@@ -56,13 +55,12 @@ function button2Clicked() {
   goToScene(currentScene);
 }
 
-let musicActive = false;
-
+// Turning music on and off
 function buttonSoundClicked() {
   if (musicActive === false) {
     music.play();
     musicActive = true;
-    buttonSound.innerHTML = "⏸";
+    buttonSound.innerHTML = "■";
   }
   else {
     music.pause();
