@@ -44,6 +44,8 @@ function setButtonSound() {
   }
 }
 
+setButtonSound();
+
 // Game engine ;)
 let currentScene = 0;
 
