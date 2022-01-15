@@ -75,5 +75,5 @@ function button2Clicked() {
 // Turning music on and off
 function buttonSoundClicked() {
   musicActive = !musicActive;
-    setButtonSound();
+  setButtonSound();
 }
