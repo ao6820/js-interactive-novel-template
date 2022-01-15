@@ -1,9 +1,10 @@
-// Import stylesheets
-// import './style.css';
+const button1Div = document.querySelector("#button1");
+const button2Div = document.querySelector("#button2");
+const storyboard = document.querySelector("#story");
 
-const button1Div = document.getElementById('button1');
-const button2Div = document.getElementById('button2');
-const storyboard = document.getElementById('story');
+const button = document.querySelector("#button1");
+const button2 = document.querySelector("#button2");
+const buttonSound = document.querySelector("#buttonSound");
 
 let music = new Audio('./Vopna.mp3');
 
@@ -40,10 +41,6 @@ function goToScene(sceneId) {
 }
 
 goToScene(currentScene);
-
-const button = document.querySelector("#button1");
-const button2 = document.querySelector("#button2");
-const buttonSound = document.querySelector("#buttonSound");
 
 button.addEventListener("click", button1Clicked);
 button2.addEventListener("click", button2Clicked);
