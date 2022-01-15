@@ -65,10 +65,11 @@ function buttonSoundClicked() {
   if (musicActive === false) {
     music.play();
     musicActive = true;
-    console.log(musicActive);
+    buttonSound.innerHTML = "⏸";
   }
   else {
     music.pause();
     musicActive = false;
+    buttonSound.innerHTML = "▶";
   }
 }
