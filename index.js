@@ -70,8 +70,11 @@ function button2Clicked() {
   goToScene(currentScene);
 }
 
+/*
 // Turning music on and off
 function buttonSoundClicked() {
   musicActive != musicActive;
   setButtonSound();
 }
+
+*/
