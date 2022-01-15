@@ -2,7 +2,7 @@
 let scenes = [
   
     // start menu (scene 0): name, first button, first button link, secon button, second button link
-      ['<h1>Roguelike game</h1>','Start game',2,'About',1],
+      ['<h1>Roguelike game</h1>', 'Start game', 2, 'About', 1],
 
     // about page (scene 1)
       ['This is a test game created by Aleksander Olszewski.', 'Back', 0, 'Start game', 3],
@@ -42,6 +42,7 @@ function setButtonSound() {
   else {
     buttonSound.innerHTML = "▶";
   }
+}
 
 // Game engine ;)
 let currentScene = 0;
