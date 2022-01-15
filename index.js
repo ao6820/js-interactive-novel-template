@@ -74,7 +74,6 @@ function button2Clicked() {
 
 // Turning music on and off
 function buttonSoundClicked() {
-  musicActive != musicActive;
-  console.log(musicActive);
-  setButtonSound();
+  musicActive = !musicActive;
+    setButtonSound();
 }
