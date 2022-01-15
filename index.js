@@ -72,5 +72,3 @@ function buttonSoundClicked() {
     musicActive = false;
   }
 }
-
-
