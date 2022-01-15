@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
+// import './style.css';
 
 const button1Div = document.getElementById('button1');
 const button2Div = document.getElementById('button2');
