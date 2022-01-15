@@ -1,6 +1,4 @@
 // The whole story is in the following array. You can fork this template, edit it and add new scenes to make it yours.
-
-
 let scenes = [
   
     // start menu (scene 0): name, first button, first button link, secon button, second button link
@@ -24,7 +22,6 @@ let scenes = [
     /* You can add more scenes above. The template goes like this:
     ['scene text', 'first button label', number of the scene the first button links to, 'second button label', number of the scene the second button links to],      
     */
-  
 ];
 
 // Mapping the buttons etc.
