@@ -73,13 +73,4 @@ function buttonSoundClicked() {
   }
 }
 
-/* function playMusic(){
-  var music = new Audio('https://github.com/dzemochlon/website/blob/gh-pages/moj_maz_ma_zimne_rece.mp3?raw=true');
-  music.play();
-  }
-music.play();
 
-
-▶
-
-*/
