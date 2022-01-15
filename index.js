@@ -32,7 +32,7 @@ const buttonSound = document.querySelector("#buttonSound");
 
 // Music settings
 let music = new Audio('./Vopna.mp3');   // you can change './Vopna.mp3' to any URL with music
-let musicActive = true;                // autoplay is off by default, if you want to change it, simply replace false with true
+let musicActive = false;                // autoplay is off by default, if you want to change it, simply replace false with true
 
 function setButtonSound() {
   if (musicActive === true) {
@@ -40,6 +40,7 @@ function setButtonSound() {
     music.play();
   } else {
     buttonSound.innerHTML = "▶";
+    music.pause();
   }
 }
 
@@ -74,5 +75,6 @@ function button2Clicked() {
 // Turning music on and off
 function buttonSoundClicked() {
   musicActive != musicActive;
+  console.log(musicActive);
   setButtonSound();
 }
