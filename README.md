@@ -1,11 +1,17 @@
 # js-interactive-novel-template
 
-Here's a simple JavaScript template for your interactive novel, gamebook, or interactive story. 
+![Screenshot1](./screenshots/scr1.png)
+![Screenshot2](./screenshots/scr2.png)
+
+
+Here's a simple responisve JavaScript template for your interactive novel, gamebook, wovel, hypertext fiction or interactive story. 
+
 You don't really need to code to use it, just change the data in the array in index.js. 
 
-The comments shall guide you.
+_The comments shall guide you._
 
-[Demo game](https://ao6820.github.io/js-interactive-novel-template/)
++ [Check the demo here](https://ao6820.github.io/js-interactive-novel-template/)
++ [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-interactive-novel-template-3xhche)
 
 ## Credits
 
@@ -52,4 +58,4 @@ Creative Commons CC BY 4.0
 
 https://creativecommons.org/licenses/by/4.0/
  
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-interactive-novel-template-3xhche)
+
