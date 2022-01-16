@@ -4,10 +4,11 @@
 .quote {
   text-align: center;
   position: relative;
+  padding-top: 100px;
   padding-top: 150px;
 
   font-family:  lato;
-  font-size: 5vw;
+  font-size: 1vw;
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.02em;
