@@ -4,7 +4,7 @@
 .quote {
   text-align: center;
   position: relative;
-  padding: 100px 50px 150px;
+  padding: 100px 50px 200px;
 
   font-family:  lato;
   font-size: 3vw;
@@ -54,7 +54,7 @@
 }
 
 #buttonSound {
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.02em;
