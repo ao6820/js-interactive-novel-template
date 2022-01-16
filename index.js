@@ -5,7 +5,7 @@ let scenes = [
       ['<h1> Interactive Novel Template</h1>', 'Start game', 2, 'About', 1],
 
     // about page (scene 1)
-      [' <p>This is a test game created by Aleksander Olszewski. Visit https://github.com/ao6820/js-interactive-novel-template/ </p> Music: Vopna by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/', 'Back', 0, 'Start game', 2],
+      [' <p>This is a test game created by ao6820. Visit https://github.com/ao6820/js-interactive-novel-template/ </p> Music: Vopna by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/', 'Back', 0, 'Start game', 2],
 
     // scene 2
       ['Welcome traveler.', 'Who are you?', 3,'Whatever.', 4],
