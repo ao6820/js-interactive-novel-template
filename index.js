@@ -2,10 +2,10 @@
 let scenes = [
   
     // start menu (scene 0): name, first button, first button link, secon button, second button link
-      ['<h1>Roguelike game</h1>', 'Start game', 2, 'About', 1],
+      ['<h1>Interactive Novel Template</h1>', 'Start game', 2, 'About', 1],
 
     // about page (scene 1)
-      ['This is a test game created by Aleksander Olszewski.', 'Back', 0, 'Start game', 3],
+      ['This is a test game created by Aleksander Olszewski. Visit https://github.com/ao6820/js-interactive-novel-template/ Music: Vopna by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/', 'Back', 0, 'Start game', 3],
 
     // scene 2
       ['Welcome traveler.', 'Who are you?', 3,'Whatever.', 4],
