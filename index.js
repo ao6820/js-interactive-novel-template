@@ -2,10 +2,10 @@
 let scenes = [
   
     // start menu (scene 0): name, first button, first button link, secon button, second button link
-      ['<h1>Interactive Novel Template</h1>', 'Start game', 2, 'About', 1],
+      ['<h1> Interactive Novel Template</h1>', 'Start game', 2, 'About', 1],
 
     // about page (scene 1)
-      ['This is a test game created by Aleksander Olszewski. Visit https://github.com/ao6820/js-interactive-novel-template/ Music: Vopna by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/', 'Back', 0, 'Start game', 3],
+      [' <p>This is a test game created by Aleksander Olszewski. Visit https://github.com/ao6820/js-interactive-novel-template/ </p> Music: Vopna by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/', 'Back', 0, 'Start game', 2],
 
     // scene 2
       ['Welcome traveler.', 'Who are you?', 3,'Whatever.', 4],
@@ -17,7 +17,7 @@ let scenes = [
       ['Eh. Whatever.', 'Ok, bye.', 5,'Cheers.', 5],
       
     // scene 5   
-      ['<h2>The End</h2>', 'Start new game', 0, 'About', 1],
+      ['<h2> The End</h2>', 'Start new game', 0, 'About', 1],
 
     /* You can add more scenes above. The template goes like this:
     ['scene text', 'first button label', number of the scene the first button links to, 'second button label', number of the scene the second button links to],      
