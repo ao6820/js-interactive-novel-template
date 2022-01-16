@@ -4,7 +4,7 @@
 ![Screenshot2](./screenshots/scr2.png)
 
 
-Here's a simple responisve JavaScript template for your interactive novel, gamebook, wovel, hypertext fiction or interactive story. 
+Here's a simple responsive JavaScript template for your interactive novel, gamebook, wovel, hypertext fiction or interactive story. 
 
 You don't really need to code to use it, just change the data in the array in index.js. 
 
